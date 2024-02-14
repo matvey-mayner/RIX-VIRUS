@@ -111,21 +111,6 @@ component.eeprom.set(Code)
 parseAllAddresess()
  
 print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
-print("Oops! Unknown Error Restart Computer!")
 
 while true do
   local str = ""
